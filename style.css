@@ -149,3 +149,35 @@ body {
   margin-block-end: auto;
   margin-block-start: 0.2em;
 }
+
+
+.container-prospection.pixelgrade{
+  background-color: white;
+}
+
+.container-pixelgrade-left {
+  text-align: center;
+  flex:1;
+}
+
+.container-pixelgrade-right {
+  flex:1;
+  margin-right: 10%;
+}
+
+.container-pixelgrade-left-logo {
+  width: 65%;
+}
+
+.container-explain-left {
+  margin-left: 7%;
+  flex: 1;
+}
+
+.container-explain-right {
+  flex: 1;
+}
+
+.container-explain-right-logo {
+  width: 65%;
+}
