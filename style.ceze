@@ -124,8 +124,28 @@ body {
     margin-top: 10px;
 }
 
+.container-management {
+  background-color: white;
+}
+
 .container-management-presentation {
     text-align: center;
     font-size: 2.7vw;
     margin-top: 2%;
+}
+
+.container-card {
+  padding: 2vw 7vw 2vw 7vw;
+}
+
+.container-card-value {
+  border-left: 1.5px solid #f5f7f9; /* Left border */
+  border-right: 1.5px solid #f5f7f9; /* Right border */
+  border-bottom: 1.5px solid #f5f7f9; /* Bottom border */
+  border-radius: 5px;
+}
+
+.container-card-title {
+  margin-block-end: auto;
+  margin-block-start: 0.2em;
 }
