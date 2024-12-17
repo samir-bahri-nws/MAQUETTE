@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: gray;
+  background-color: #f5f7fa;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #f5f7f9;
+  background-color: #f5f7fa;
   padding: 10px;
 }
 
@@ -59,13 +59,13 @@ body {
 }
 
 .login-button:hover {
-    background-color: #45a049;
-    color: white;
-  }
+  background-color: #45a049;
+  color: white;
+}
 
 .login-button {
-    background-color: #f5f7f9;
-    color: #4caf50;
+  background-color: #f5f7f9;
+  color: #4caf50;
 }
 
 .signup-button {
@@ -75,53 +75,53 @@ body {
 }
 
 .register-button {
-    background-color: #4caf50;
-    color: white;
-    padding: 2%;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    display: inline-block;
-    font-size: 1vw;
+  background-color: #4caf50;
+  color: white;
+  padding: 2%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  font-size: 1vw;
 }
 
-#container{
-    width: 100%;
+#container {
+  width: 100%;
 }
 
 .container-prospection {
-    width: 100%;
-    background-color: #f5f7f9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  background-color: #f5f7f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container-prospection-left {
-    flex: 1;
-    padding-left: 7%;
+  flex: 1;
+  padding-left: 7%;
 }
 
 .container-prospection-right {
-    flex: 1;
-    padding-right: 2%;
+  flex: 1;
+  padding-right: 2%;
 }
 
 .container-prospection-right-logo {
-    width: 50%;
-    height: auto;
+  width: 50%;
+  height: auto;
 }
 
 .logo {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .register-button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .container-management {
@@ -129,9 +129,9 @@ body {
 }
 
 .container-management-presentation {
-    text-align: center;
-    font-size: 2.7vw;
-    margin-top: 2%;
+  text-align: center;
+  font-size: 2.7vw;
+  margin-top: 2%;
 }
 
 .container-card {
@@ -150,18 +150,17 @@ body {
   margin-block-start: 0.2em;
 }
 
-
-.container-prospection.pixelgrade{
+.container-prospection.pixelgrade {
   background-color: white;
 }
 
 .container-pixelgrade-left {
   text-align: center;
-  flex:1;
+  flex: 1;
 }
 
 .container-pixelgrade-right {
-  flex:1;
+  flex: 1;
   margin-right: 10%;
 }
 
@@ -180,4 +179,10 @@ body {
 
 .container-explain-right-logo {
   width: 65%;
+}
+.header-container {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 105px;
+  padding-right: 105px;
 }
