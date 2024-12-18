@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="content-type" />
     <title>Web Site</title>
@@ -216,39 +216,9 @@
           }
         });
 
-        const headerContainer = document.querySelector(".navbar");
-        if (
-          headerContainer.style.backgroundColor === "rgb(245, 247, 249)" ||
-          headerContainer.style.backgroundColor === "black"
-        ) {
-          headerContainer.style.backgroundColor = "white";
-        } else {
-          headerContainer.style.backgroundColor = "black";
-        }
-
-        const firstContainer = document.querySelector(
-          ".container-prospection "
-        );
-        if (
-          firstContainer.style.backgroundColor === "rgb(245, 247, 249)" ||
-          firstContainer.style.backgroundColor === "black"
-        ) {
-          firstContainer.style.backgroundColor = "white";
-        } else {
-          firstContainer.style.backgroundColor = "black";
-        }
-
-        const secondContainer = document.querySelector(".last-container");
-        if (secondContainer.style.backgroundColor === "black") {
-          secondContainer.style.backgroundColor = "white";
-        } else {
-          secondContainer.style.backgroundColor = "black";
-        }
-
         const containers = document.querySelectorAll(
           ".container-prospection.pixelgrade"
         );
-
         containers.forEach((container) => {
           if (container.style.backgroundColor === "black") {
             container.style.backgroundColor = "white";
@@ -257,24 +227,29 @@
           }
         });
 
+        const headerContainer = document.querySelector(".navbar");
+        const firstContainer = document.querySelector(
+          ".container-prospection "
+        );
+        const secondContainer = document.querySelector(".last-container");
         const thirdContainer = document.querySelector(
           ".container-management-presentation"
         );
-        if (thirdContainer.style.backgroundColor === "black") {
-          thirdContainer.style.backgroundColor = "white";
-        } else {
-          thirdContainer.style.backgroundColor = "black";
-        }
-
         const containerLastGray = document.querySelector(
           ".last-container-gray"
         );
-        if (
-          containerLastGray.style.backgroundColor === "rgb(245, 247, 249)" ||
-          containerLastGray.style.backgroundColor === "black"
-        ) {
-          containerLastGray.style.backgroundColor = "white";
+
+        if (secondContainer.style.backgroundColor === "black") {
+          headerContainer.style.backgroundColor = "rgb(245, 247, 249)";
+          firstContainer.style.backgroundColor = "rgb(245, 247, 249)";
+          secondContainer.style.backgroundColor = "white";
+          thirdContainer.style.backgroundColor = "white";
+          containerLastGray.style.backgroundColor = "rgb(245, 247, 249)";
         } else {
+          headerContainer.style.backgroundColor = "black";
+          firstContainer.style.backgroundColor = "black";
+          secondContainer.style.backgroundColor = "black";
+          thirdContainer.style.backgroundColor = "black";
           containerLastGray.style.backgroundColor = "black";
         }
       }
