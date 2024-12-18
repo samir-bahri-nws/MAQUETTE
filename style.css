@@ -12,10 +12,12 @@ body {
 .title-text-style {
   font-size: 2.5vw;
   font-weight: bold;
+  color: #4d4d4d;
 }
 
 .simple-text-style {
   font-size: 1vw;
+  color: #717171;
 }
 
 .navbar {
@@ -23,6 +25,7 @@ body {
   align-items: center;
   background-color: #f5f7f9;
   padding: 10px;
+  padding-right: 15%;
 }
 
 .logo {
@@ -120,8 +123,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 10%;
-  padding-top: 5%;
 }
 
 .container-prospection-left {
@@ -188,6 +189,7 @@ body {
 .container-card-title {
   margin-block-end: auto;
   margin-block-start: 0.2em;
+  color: #4d4d4d;
 }
 
 .container-prospection.pixelgrade {
@@ -244,8 +246,20 @@ body {
   text-align: center;
   padding: 3%;
   background-color: #263137;
+  color: #f6f7fa;
 }
 
 .black-background {
   background-color: black;
+}
+
+.subtitle-style-text {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #4caf50;
+}
+.end-text-style {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #263139;
 }
