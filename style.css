@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: white;
+  color: #4d4d4d;
 }
 
 .dark-mode {
@@ -12,7 +13,6 @@ body {
 .title-text-style {
   font-size: 2.5vw;
   font-weight: bold;
-  color: #4d4d4d;
 }
 
 .simple-text-style {
@@ -189,7 +189,6 @@ body {
 .container-card-title {
   margin-block-end: auto;
   margin-block-start: 0.2em;
-  color: #4d4d4d;
 }
 
 .container-prospection.pixelgrade {
